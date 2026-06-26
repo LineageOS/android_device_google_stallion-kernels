@@ -151,7 +151,6 @@ extra/private/google-modules/bms/google-charger.ko
 extra/private/google-modules/bms/google_dual_batt_gauge.ko
 extra/private/google-modules/bms/google-cpm.ko
 extra/private/google-modules/bms/google_dock.ko
-extra/private/google-modules/bms/google_ccd.ko
 extra/private/google-modules/bms/max77729-pmic.ko
 extra/private/google-modules/bms/max77759-charger.ko
 extra/private/google-modules/bms/max77779-charger.ko
@@ -174,7 +173,7 @@ extra/private/google-modules/bms/max77779_pmic_pinctrl.ko
 extra/private/google-modules/bms/max77779_pmic_sgpio.ko
 extra/private/google-modules/bms/max77779_pmic_i2c.ko
 extra/private/google-modules/bms/ln8411.ko
-extra/private/google-modules/bms/rt9471_charger.ko
+extra/private/google-modules/bms/hl7132.ko
 extra/private/google-modules/bms/misc/gvotable.ko
 extra/private/google-modules/bms/misc/logbuffer.ko
 extra/private/google-modules/display/common/gs_drm/gs-drm-connector.ko
@@ -201,14 +200,13 @@ extra/private/google-modules/trusty/drivers/trusty/trusty-virtio.ko
 extra/private/google-modules/trusty/drivers/trusty/trusty-ipc.ko
 extra/private/google-modules/video/gchips/bigwave.ko
 extra/private/google-modules/display/common/panels/panel-gs-simple.ko
-extra/private/google-modules/display/panels/tegu/panel-gs-tg4a.ko
-extra/private/google-modules/display/panels/tegu/panel-gs-tg4b.ko
-extra/private/google-modules/display/panels/tegu/panel-gs-tg4c.ko
+extra/private/google-modules/display/panels/stallion/panel-gs-staea.ko
 extra/private/google-modules/gps/broadcom/bcm47765/bcm47765.ko
 extra/private/google-modules/nfc/st21nfc.ko
 extra/private/google-modules/nfc/ese/st54spi.ko
-extra/private/google-modules/radio/samsung/s5300/shm_ipc.ko
-extra/private/google-modules/radio/samsung/s5300/cpif_page.ko
-extra/private/google-modules/radio/samsung/s5300/cpif.ko
+extra/private/google-modules/radio/samsung/s5400/shm_ipc.ko
+extra/private/google-modules/radio/samsung/s5400/cpif_page.ko
+extra/private/google-modules/radio/samsung/s5400/cpif.ko
+extra/private/google-modules/radio/samsung/s5400/cp_pmic.ko
 extra/private/google-modules/touch/common/touch_bus_negotiator.ko
 extra/private/google-modules/touch/common/touch_offload.ko
